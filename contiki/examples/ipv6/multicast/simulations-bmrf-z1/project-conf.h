@@ -43,13 +43,13 @@
 #include "net/ipv6/multicast/uip-mcast6-engines.h"
 
 /* Change this to switch engines. Engine codes in uip-mcast6-engines.h */
-#define UIP_MCAST6_CONF_ENGINE	UIP_MCAST6_ENGINE_BMRF
-#define BMRF_CONF_MODE	BMRF_UNICAST_MODE
+#define UIP_MCAST6_CONF_ENGINE	UIP_MCAST6_ENGINE_SMRF
+#define BMRF_CONF_MODE	BMRF_MIXED_MODE
 #define BMRF_CONF_BROADCAST_THRESHOLD	1
 
-#undef UIP_CONF_IPV6				
+#undef UIP_CONF_IPV6			
 #define RPL_CONF_MOP RPL_MOP_STORING_MULTICAST
-#define UIP_CONF_IPV6	1		
+#define UIP_CONF_IPV6	1
 #define RPL_WITH_MULTICAST 1
 			
 #define RPL_CONF_MULTICAST 1		
@@ -58,7 +58,6 @@
 			
 #undef UIP_CONF_IPV6_MULTICAST				
 #define UIP_CONF_IPV6_MULTICAST 1
-
 
 /* For Imin: Use 16 over NullRDC, 64 over Contiki MAC */
 #define ROLL_TM_CONF_IMIN_1         64

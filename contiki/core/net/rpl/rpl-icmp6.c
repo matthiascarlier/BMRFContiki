@@ -751,7 +751,7 @@ dao_input_storing(void)
 #if RPL_WITH_MULTICAST
   if(uip_is_addr_mcast_global(&prefix)) {
 #if UIP_MCAST6_ENGINE == UIP_MCAST6_ENGINE_BMRF
-    mcast_group = uip_mcast6_route_add(&prefix, (uip_lladdr_t *)packetbuf_addr(PACKETBUF_ADDR_SENDER));
+    mcast_group = NULL; //uip_mcast6_route_add(&prefix, (uip_lladdr_t *)packetbuf_addr(PACKETBUF_ADDR_SENDER));
 #else
     mcast_group = uip_mcast6_route_add(&prefix);
 #endif /* UIP_MCAST6_ENGINE */
