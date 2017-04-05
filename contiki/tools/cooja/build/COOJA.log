@@ -1,0 +1,193 @@
+[12:59:45 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[12:59:45 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[12:59:45 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /root/.cooja.user.properties
+[12:59:52 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 4093
+[12:59:52 - Thread-0] [CompileContiki.java:140] [INFO] - > make root.z1 TARGET=z1 
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/root.c:182: undefined reference to `bmrf_driver'
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> contiki-z1.a(uip6.o): In function `uip_send':
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/../../../../core/net/ipv6/uip6.c:2347: undefined reference to `bmrf_driver'
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/../../../../core/net/ipv6/uip6.c:2360: undefined reference to `bmrf_driver'
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> rm root.co obj_z1/contiki-z1-main.o
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> contiki-z1.a(uip-udp-packet.): In function `uip_udp_packet_sendto':
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/../../../../core/net/ip/uip-udp-packet.c:95: undefined reference to `bmrf_driver'
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> collect2: error: ld returned 1 exit status
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> make: *** [root.z1] Error 1
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> Process returned error code 2
+[13:00:10 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value
+[13:02:31 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 4093
+[13:02:31 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/multicast/simulations-bmrf-z1/root.z1 with /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/root.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[13:02:31 - Thread-0] [CompileContiki.java:140] [INFO] - > make root.z1 TARGET=z1 
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/root.c:182: undefined reference to `bmrf_driver'
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> contiki-z1.a(uip6.o): In function `uip_send':
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/../../../../core/net/ipv6/uip6.c:2347: undefined reference to `bmrf_driver'
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/../../../../core/net/ipv6/uip6.c:2360: undefined reference to `bmrf_driver'
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> contiki-z1.a(uip-udp-packet.): In function `uip_udp_packet_sendto':
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/../../../../core/net/ip/uip-udp-packet.c:95: undefined reference to `bmrf_driver'
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> collect2: error: ld returned 1 exit status
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> rm root.co obj_z1/contiki-z1-main.o obj_z1/simstats.o
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> Process returned error code 2
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> make: *** [root.z1] Error 1
+[13:02:48 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value
+[13:05:55 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 4093
+[13:05:55 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/multicast/simulations-bmrf-z1/root.z1 with /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/root.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[13:05:55 - Thread-0] [CompileContiki.java:140] [INFO] - > make root.z1 TARGET=z1 
+[13:06:11 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1 with /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[13:06:11 - Thread-0] [CompileContiki.java:140] [INFO] - > make intermediate.z1 TARGET=z1 
+[13:06:12 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1 with /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[13:06:12 - Thread-0] [CompileContiki.java:140] [INFO] - > make sink.z1 TARGET=z1 
+[13:06:13 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:14 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/root.z1
+[13:06:14 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:14 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:18 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:18 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:18 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:18 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:06:18 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:19 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:19 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:19 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:19 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:19 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:19 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:20 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:20 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:20 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:20 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:20 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:06:20 - Thread-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[13:06:22 - Thread-0] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[13:06:22 - Thread-0] [LogScriptEngine.java:265] [INFO] - Script timeout in 13600000 ms
+[13:06:23 - Thread-0] [ScriptRunner.java:387] [INFO] - Test script activated
+[13:07:03 - Thread-5] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1491304023170
+[13:10:38 - Thread-5] [Simulation.java:293] [FATAL] - Simulation stopped due to error: null
+java.lang.NegativeArraySizeException
+	at org.contikios.cooja.mspmote.MspMoteMemory.getMemorySegment(MspMoteMemory.java:81)
+	at org.contikios.cooja.mote.memory.Memory.getByteArray(Memory.java:165)
+	at org.contikios.cooja.interfaces.IPAddress.addIPv6Addresses(IPAddress.java:266)
+	at org.contikios.cooja.interfaces.IPAddress.updateIPAddresses(IPAddress.java:236)
+	at org.contikios.cooja.interfaces.IPAddress.access$100(IPAddress.java:58)
+	at org.contikios.cooja.interfaces.IPAddress$1.memoryChanged(IPAddress.java:128)
+	at org.contikios.cooja.mspmote.MspMoteMemory$MemoryCPUMonitor.notifyWriteAfter(MspMoteMemory.java:157)
+	at se.sics.mspsim.core.WatchedMemory.write(WatchedMemory.java:36)
+	at se.sics.mspsim.core.MSP430Core$1.write(MSP430Core.java:171)
+	at se.sics.mspsim.core.MSP430Core.emulateOP(MSP430Core.java:1470)
+	at se.sics.mspsim.core.MSP430.stepMicros(MSP430.java:253)
+	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:337)
+	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:298)
+	at org.contikios.cooja.motes.AbstractWakeupMote$1.execute(AbstractWakeupMote.java:47)
+	at org.contikios.cooja.Simulation.run(Simulation.java:281)
+	at java.lang.Thread.run(Thread.java:745)
+[13:16:42 - Thread-5] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1491304602747	Duration: 579577 ms	Simulated time 2672 ms	Ratio 0.004610258861203947
+[13:16:56 - Thread-7] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1491304616582
+[13:16:57 - Thread-7] [Simulation.java:293] [FATAL] - Simulation stopped due to error: null
+org.contikios.cooja.ContikiError
+	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:341)
+	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:298)
+	at org.contikios.cooja.motes.AbstractWakeupMote$1.execute(AbstractWakeupMote.java:47)
+	at org.contikios.cooja.Simulation.run(Simulation.java:281)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: se.sics.mspsim.core.EmulationException: Illegal write - out of bounds at $00ffe
+	at se.sics.mspsim.core.NoMemSegment.write(NoMemSegment.java:20)
+	at se.sics.mspsim.core.MSP430Core$1.write(MSP430Core.java:171)
+	at se.sics.mspsim.core.MSP430Core.emulateOP(MSP430Core.java:1509)
+	at se.sics.mspsim.core.MSP430.stepMicros(MSP430.java:253)
+	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:337)
+	... 4 more
+[13:17:26 - Thread-7] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1491304646522	Duration: 29940 ms	Simulated time 2677 ms	Ratio 0.0894121576486306
+[13:17:28 - Thread-9] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1 with /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[13:17:28 - Thread-9] [Cooja.java:4140] [WARN] - Path is not portable: '/home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:28 - Thread-9] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1 with /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[13:17:28 - Thread-9] [Cooja.java:4140] [WARN] - Path is not portable: '/home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:29 - Thread-4] [LogScriptEngine.java:309] [INFO] - Test script finished
+[13:17:29 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[13:17:29 - Thread-9] [Simulation.java:422] [INFO] - Simulation random seed: 4093
+[13:17:29 - Thread-9] [CompileContiki.java:140] [INFO] - > make root.z1 TARGET=z1 
+[13:17:30 - Thread-9] [CompileContiki.java:140] [INFO] - > make intermediate.z1 TARGET=z1 
+[13:17:31 - Thread-9] [CompileContiki.java:140] [INFO] - > make sink.z1 TARGET=z1 
+[13:17:31 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:32 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/root.z1
+[13:17:33 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:33 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:34 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:35 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:36 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:37 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:37 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/intermediate.z1
+[13:17:37 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:38 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:38 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:38 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:39 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki3/contiki/examples/ipv6/multicast/simulations-bmrf-z1/sink.z1
+[13:17:40 - Thread-9] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[13:17:40 - Thread-9] [LogScriptEngine.java:265] [INFO] - Script timeout in 13600000 ms
+[13:17:40 - Thread-9] [ScriptRunner.java:387] [INFO] - Test script activated
+[13:17:55 - Thread-11] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1491304675853
