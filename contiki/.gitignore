@@ -28,7 +28,6 @@ contiki-cc2530dk.lib
 *.d81
 
 # Cooja Build Artifacts
-*.cooja
 
 #regression tests artifacts
 *.testlog
